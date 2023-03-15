@@ -10,7 +10,7 @@ var components = []string{
 	"non-free",
 }
 
-var mainurl = "https://deb.whonix.org/dists/"
-var extrasurl = "https://deb.whonix.org/dists/"
+var mainurl = "https://deb.kicksecure.com/dists/"
+var extrasurl = "https://deb.kicksecure.com/dists/"
 
 var suites = []string{"bullseye", "bullseye-stable-proposed-updates", "bullseye-testers", "bullseye-developers"}

@@ -2,25 +2,15 @@ package main
 
 var outputPath = "./"
 
-var architectures = []string{"binary-amd64", "binary-armhf", "binary-arm64"}
+var architectures = []string{"binary-amd64", "binary-arm64"}
 
 var components = []string{
 	"main",
 	"contrib",
 	"non-free",
-	"n900",
-	"droid4",
-	"bionic",
-	"n9",
-	"n950",
-	"lima",
-	"pinephone",
-	"raspberrypi",
-	"sunxi",
-	"pocophone-f1",
 }
 
-var mainurl = "https://maedevu.maemo.org/leste/dists"
-var extrasurl = "https://maedevu.maemo.org/extras/dists"
+var mainurl = "https://deb.whonix.org/dists/"
+var extrasurl = "https://deb.whonix.org/dists/"
 
-var suites = []string{"beowulf", "beowulf-devel", "chimaera"}
+var suites = []string{"bullseye", "bullseye-stable-proposed-updates", "bullseye-testers", "bullseye-developers"}
